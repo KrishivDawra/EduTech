@@ -53,9 +53,9 @@ const Body = () => {
 
       <div className='flex gap-10'>
 
-        <div className='flex-col '>
-          <img src=".\src\assets\virat.jpeg" alt="" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo consectetur, fugit esse laudantium mollitia et aliquam! Mollitia, odio esse!</p>
+        <div className=' flex flex-col border-4 border-slate-500 px-4 py-2 justify-center items-center '>
+          <img src=".\src\assets\virat.jpeg" className='rounded-full h-60 w-60' alt="" />
+          <p className='justify-evenly'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo consectetur, fugit esse laudantium mollitia et aliquam! Mollitia, odio esse!</p>
           <h1>Virat Kohli</h1>
           <h1>Cricketor</h1>
           <div className='flex'>
@@ -65,9 +65,9 @@ const Body = () => {
           </div>
         </div>
 
-        <div className='flex-col'>
-          <img src=".\src\assets\kapil.jpeg" alt="" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi perspiciatis, doloremque deleniti voluptatem ipsam quam repudiandae perferendis repellendus amet labore!</p>
+        <div className=' flex flex-col border-4 border-slate-500 px-4 py-2 justify-center items-center'>
+          <img src=".\src\assets\kapil.jpeg" className='rounded-full h-60 w-60'  alt="" />
+          <p className='justify-center '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi perspiciatis, doloremque deleniti voluptatem ipsam quam repudiandae perferendis repellendus amet labore!</p>
           <h1>Kapil Sharma</h1>
           <h1>India Comedian</h1>
           <div className='flex'>
@@ -77,8 +77,8 @@ const Body = () => {
           </div>
         </div>
 
-        <div className='flex-col justify-center px-2 py-2 '>
-          <img src=".\src\assets\akshay.jpeg" className='' alt="" />
+        <div className=' flex flex-col border-4 border-slate-500 px-4 py-2 justify-center items-center '>
+          <img src=".\src\assets\dhoni.jpeg" className='rounded-full h-60 w-60'  alt="" />
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In rem explicabo est impedit totam quos nisi quam odio repudiandae excepturi!</p>
           <h1>Akshay Kumar</h1>
           <h1>India Comedy Actor</h1>
@@ -90,6 +90,8 @@ const Body = () => {
         </div>
 
       </div>
+
+
 
 
     </div>
