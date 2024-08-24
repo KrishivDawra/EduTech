@@ -49,9 +49,49 @@ const Body = () => {
           </button>
       </div>
 
-      <div>
-        
+
+
+      <div className='flex gap-10'>
+
+        <div className='flex-col '>
+          <img src=".\src\assets\virat.jpeg" alt="" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo consectetur, fugit esse laudantium mollitia et aliquam! Mollitia, odio esse!</p>
+          <h1>Virat Kohli</h1>
+          <h1>Cricketor</h1>
+          <div className='flex'>
+            <img src=".\src\assets\icon-star.svg" alt="" />
+            <img src=".\src\assets\icon-star.svg" alt="" />
+            <img src=".\src\assets\icon-star.svg" alt="" />
+          </div>
+        </div>
+
+        <div className='flex-col'>
+          <img src=".\src\assets\kapil.jpeg" alt="" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi perspiciatis, doloremque deleniti voluptatem ipsam quam repudiandae perferendis repellendus amet labore!</p>
+          <h1>Kapil Sharma</h1>
+          <h1>India Comedian</h1>
+          <div className='flex'>
+            <img src=".\src\assets\icon-star.svg" alt="" />
+            <img src=".\src\assets\icon-star.svg" alt="" />
+            <img src=".\src\assets\icon-star.svg" alt="" />
+          </div>
+        </div>
+
+        <div className='flex-col justify-center px-2 py-2 '>
+          <img src=".\src\assets\akshay.jpeg" className='' alt="" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In rem explicabo est impedit totam quos nisi quam odio repudiandae excepturi!</p>
+          <h1>Akshay Kumar</h1>
+          <h1>India Comedy Actor</h1>
+          <div className='flex'>
+            <img src=".\src\assets\icon-star.svg" alt="" />
+            <img src=".\src\assets\icon-star.svg" alt="" />
+            <img src=".\src\assets\icon-star.svg" alt="" />
+          </div>
+        </div>
+
       </div>
+
+
     </div>
   )
 }
